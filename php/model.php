@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * The "Organisational unit" class is the base class for
+ * courses, subjects, parts and modules. It can hold child
+ * organisational unit objects and series
+ */
 class OrgUnit {
     public $externalId;
     public $displayName;
@@ -18,18 +24,30 @@ class OrgUnit {
         $this->metadata = $metadata;
     }
 
-    public function addChild($child) {
+    public function add_child($child) {
         array_push($this->children, $child);
     }
 
-    public function addSeries($series) {
+    public function has_child($externalId) {
+        return isset($this->childrenByExternalId[$externalId]);
+    }
+
+    public function add_series($series) {
         array_push($this->series, $series);
     }
 }
 
+/**
+ * A course is the top node in the data tree. When importing data it's a bit
+ * special as it's the only organisational unit where you will have to manually
+ * provide an id for.
+ */
 class Course extends OrgUnit {
-    public function __construct($externalId, $displayName, $description, $published, $metadata) {
+    public $id;
+
+    public function __construct($id, $externalId, $displayName, $description, $published, $metadata) {
         parent::__construct($externalId, $displayName, 'course', $description, $published, $metadata);
+        $this->id = $id;
     }
 }
 
@@ -62,7 +80,7 @@ class Series {
         $this->description = $description;
     }
 
-    public function addEvent($event) {
+    public function add_event($event) {
         array_push($this->events, $event);
     }
 }
@@ -89,7 +107,7 @@ class Event {
         $this->type = $type;
     }
 
-    public function addOrganiser($organiser) {
+    public function add_organiser($organiser) {
         array_push($this->organisers, $organiser);
     }
 }
