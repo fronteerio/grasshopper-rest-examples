@@ -37,11 +37,6 @@ class OrgUnit {
     }
 }
 
-/**
- * A course is the top node in the data tree. When importing data it's a bit
- * special as it's the only organisational unit where you will have to manually
- * provide an id for.
- */
 class Course extends OrgUnit {
     public $id;
 
@@ -52,14 +47,20 @@ class Course extends OrgUnit {
 }
 
 class Subject extends OrgUnit {
-    public function __construct($externalId, $displayName, $description, $published, $metadata) {
+    public $id;
+
+    public function __construct($id, $externalId, $displayName, $description, $published, $metadata) {
         parent::__construct($externalId, $displayName, 'subject', $description, $published, $metadata);
+        $this->id = $id;
     }
 }
 
 class Part extends OrgUnit {
-    public function __construct($externalId, $displayName, $description, $published, $metadata) {
+    public $id;
+
+    public function __construct($id, $externalId, $displayName, $description, $published, $metadata) {
         parent::__construct($externalId, $displayName, 'part', $description, $published, $metadata);
+        $this->id = $id;
     }
 }
 class Module extends OrgUnit {

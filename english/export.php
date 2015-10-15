@@ -6,6 +6,9 @@ require('../php/model.php');
 // Grab the config data
 require('./config.php');
 
+// Given a year in which the Michaelmas term takes place, get a time range that
+// includes all three terms. For example, if 2015 is passed in, this function
+// will return a range going from the 1st of October 2015 till the 1st of July 2016
 function get_start_end_for_year($year) {
     return array(
         'start' => strtotime($year . '-10-01'),
@@ -13,25 +16,17 @@ function get_start_end_for_year($year) {
     );
 }
 
+// Get the events from the mrbs database
 function get_events_for_year($year) {
     $db = mysqli_connect('127.0.0.1', 'root', '', 'english');
     if ($db->connect_errno > 0) {
         die('Unable to connect to database [' . $db->connect_error . ']');
     }
 
-    /*
-      Query for RMBS
-
-    $sql = 'SELECT mrbs_entry.*, mrbs_room.room_name FROM mrbs_entry
-         LEFT JOIN (mrbs_room) ON (mrbs_room.id = mrbs_entry.room_id)
-         WHERE start_time >= ?
-         AND end_time <= ?
-         ORDER BY mrbs_entry.start_time ASC'
-    */
-
     $startEnd = get_start_end_for_year($year);
     $statement = $db->prepare(
-        'SELECT * FROM events
+        'SELECT mrbs_entry.*, mrbs_room.room_name FROM mrbs_entry
+         LEFT JOIN (mrbs_room) ON (mrbs_room.id = mrbs_entry.room_id)
          WHERE start_time >= ?
          AND end_time <= ?
          ORDER BY start_time ASC'
@@ -71,6 +66,8 @@ function get_events_for_year($year) {
     return $events;
 }
 
+// Given a flat list of events, return a hash of events that indexed by whether they take
+// place in an undergraduate or graduate part
 function group_events_by_part($events) {
     $parts = array(
         'prelim_primary' => array(),
@@ -78,8 +75,16 @@ function group_events_by_part($events) {
         'part2_primary' => array(),
         'grad_primary' => array()
     );
-
     foreach ($events as $event) {
+        // Filter out events that take place on Saturday or Sunday. Although unlikely,
+        // this happens when someone creates a repeatable event that re-occurs every day
+        // from say Thursday till Tuesday but forgot to remove the sat/sun entries
+        if (date("w", $event['start_time']) == 0 || date("w", $event['start_time'])==6) {
+            continue;
+        }
+
+        // An event can be in multiple parts at the same time. Duplicate these events
+        // in each part
         foreach ($parts as $partName => $partEvents) {
             if (!empty($event[$partName])) {
                 $parts[$partName][] = $event;
@@ -90,41 +95,66 @@ function group_events_by_part($events) {
     return $parts;
 }
 
+// Build the undergraduate timetables
+// partName is one of prelim_primary, part1_primary or part2_primary
 function build_ug_part_timetable($events, $partName, &$timetables) {
+    // Map the column name to a pretty name. This will also be the displayName
+    // of the part in the Timetable UI
     $mappedParts = array(
-        'prelim_primary' => 'prelim',
-        'part1_primary' => 'I',
-        'part2_primary' => 'II'
+        'prelim_primary' => 'Prelim',
+        'part1_primary' => 'Part I',
+        'part2_primary' => 'Part II'
     );
-
     foreach ($events as $event) {
         $module_title = $event[$partName];
         $series_title = $event['name'];
         if (strcasecmp($module_title, "general") == 0) {
-            $timetables['english-tripos'][$mappedParts[$partName]]['General'][$series_title][] = $event;
+            $timetables[$partName][$mappedParts[$partName]]['General'][$series_title][] = $event;
+
+        // 7ab is a special key that means it should go under both paper 7a and paper 7b. There should
+        // be no paper 7ab in the timetable system however.
         } else if ($module_title == '7ab') {
-            $timetables['english-tripos'][$mappedParts[$partName]]['Paper 7a'][$series_title][] = $event;
-            $timetables['english-tripos'][$mappedParts[$partName]]['Paper 7b'][$series_title][] = $event;
+            $timetables[$partName][$mappedParts[$partName]]['Paper 7a'][$series_title][] = $event;
+            $timetables[$partName][$mappedParts[$partName]]['Paper 7b'][$series_title][] = $event;
         } else {
-            $timetables['english-tripos'][$mappedParts[$partName]]['Paper ' . $module_title][$series_title][] = $event;
+            $timetables[$partName][$mappedParts[$partName]]['Paper ' . $module_title][$series_title][] = $event;
         }
     }
 }
 
+// Build the graduate timetables
+// partName = 'grad_primary'
 function build_grad_part_timetable($events, $partName, &$timetables) {
+    $mphils = array(
+        'american-mphil',
+        'c-and-c-mphil',
+        'eighteenth-mphil',
+        'modern-mphil',
+        'med-ren-mphil',
+        'research-seminar',
+        'phd'
+    );
+
     foreach ($events as $event) {
-        $eventPartName = substitute_module($event[$partName]);
-        if ($event[$partName] == 'research-seminar') {
-            $timetables['english-research-seminars'][$eventPartName][$eventPartName][$event['name']][] = $event;
-        } else if ($event[$partName] == 'phd') {
-            $timetables['english-phd'][$eventPartName][$eventPartName][$event['name']][] = $event;
+        // General events need to be added to a "General module" under all MPhils
+        if (strcasecmp($event[$partName], "general") == 0) {
+            foreach ($mphils as $mphil) {
+                $timetables[$mphil]['MPhil']['General'][$event['name']][] = $event;
+            }
+
+        // All the events for the Mphils go under 1 module which holds the same name as the MPhil.
+        // For example, The "18th Century and Romantic English Studies MPhil" will only have 1 module
+        // and it's aptly named: "18th Century and Romantic MPhil"
         } else {
+            $eventPartName = substitute_module($event[$partName]);
             $timetables[$event[$partName]]['MPhil'][$eventPartName][$event['name']][] = $event;
         }
     }
 }
 
+// Build out the undergrad and graduate timetables
 function build_timetables_hierarchy($events) {
+    // Index the events by whether they are a prelim, I, II or graduate part
     $parts = group_events_by_part($events);
 
     $timetables = array();
@@ -145,6 +175,8 @@ function build_timetables_hierarchy($events) {
     return $timetables;
 }
 
+// Given a simple key, get the pretty name for a module. If no pretty name could be found,
+// the simple key will be returned
 function substitute_module($moduleName) {
     $substitutions = array(
         'american-mphil' => 'American Literature MPhil',
@@ -160,13 +192,12 @@ function substitute_module($moduleName) {
     return $substitution ? $substitution : $moduleName;
 }
 
-function build_timetables_json($timetables, &$courses) {
+// Construct the timetable model
+function build_timetables_json($timetables, &$parts) {
     foreach ($timetables as $timetableKey => $timetableVal) {
-        $course = $courses[$timetableKey];
+        $part = $parts[$timetableKey];
+
         foreach ($timetableVal as $partKey => $partVal) {
-            $partId = "${timetableKey}-{$partKey}";
-            $part = new Part($partId, $partKey, null, null, null);
-            $course->add_child($part);
 
             foreach ($partVal as $moduleKey => $moduleVal) {
                 $moduleId = "${timetableKey}-{$partKey}-${moduleKey}";
@@ -174,7 +205,7 @@ function build_timetables_json($timetables, &$courses) {
                 $part->add_child($module);
 
                 foreach ($moduleVal as $seriesKey => $seriesVal) {
-                    $seriesId = md5("${timetableKey}-{$partKey}-${moduleKey}-${seriesKey}");
+                    $seriesId = "${timetableKey}-{$partKey}-${moduleKey}-${seriesKey}";
                     $series = new Series($seriesId, $seriesKey, null);
                     $module->add_series($series);
 
@@ -193,9 +224,10 @@ function build_timetables_json($timetables, &$courses) {
         }
     }
 
-    return $courses;
+    return $parts;
 }
 
+// Get the location for an event
 function get_event_location($event) {
     $location = !empty($event['other_room_name']) ? $event['other_room_name'] : $event['room_name'];
     if (preg_match('/^slot/i', $location)) {
@@ -204,6 +236,7 @@ function get_event_location($event) {
     return htmlspecialchars($location);
 }
 
+// Get the type of the event
 function get_event_type_from_name($name) {
     $types = array (
         'L' => 'Lecture',
@@ -216,17 +249,18 @@ function get_event_type_from_name($name) {
     return 'Other';
 }
 
-function importCourse($course) {
+// Import a part using the timetable API
+function importPart($part) {
     // Get the URL of the API and the access token from the config
     global $api_url;
     global $access_token;
 
     // We should post the data to /api/orgunit/<id>/import
-    $courseId = $course->id;
-    $url = "${api_url}/orgunit/${courseId}/import";
+    $partId = $part->id;
+    $url = "${api_url}/orgunit/${partId}/import";
 
-    // We need to provide the course data formatted as JSON
-    $importData = json_encode($course, JSON_PRETTY_PRINT);
+    // We need to provide the part data formatted as JSON
+    $importData = json_encode($part, JSON_PRETTY_PRINT);
 
     // We will use cURL to talk to the timetable REST API
     $curl = curl_init($url);
@@ -241,13 +275,18 @@ function importCourse($course) {
     // Pass along the stringified JSON data
     curl_setopt($curl, CURLOPT_POSTFIELDS, array('data' => $importData));
 
+    // Quick note, if you wish to delete all the data in the part, you could comment out the above
+    // line and replace it with this one:
+    //    curl_setopt($curl, CURLOPT_POSTFIELDS, array('data' => '{}', 'deleteMissing' => 'true'));
+    // That would import "empty" data and delete everything else
+
     // Execute the request
     $response = curl_exec($curl);
 
     // If the request is successful, a "200" status code will be returned. If for whatever
     // reason the request failed, another code will be returned. Typical codes would be:
-    //  - 400: The JSON course data that was submitted is incorrect
-    //  - 401: You tried to update a course you do not have access to
+    //  - 400: The JSON part data that was submitted is incorrect
+    //  - 401: You tried to update a part you do not have access to
     $status_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
     if ($status_code != 200) {
         print "Something went wrong!\n${response}";
@@ -257,27 +296,27 @@ function importCourse($course) {
     }
     curl_close($curl);
 
-    // The course data has been imported and should now be in the timetable system
-    print "Imported data for " . $course->displayName . "\n";
+    // The part data has been imported and should now be in the timetable system
+    print "Imported data for " . $part->displayName . "\n";
 }
 
 function init() {
-    global $courses;
+    global $parts;
 
     date_default_timezone_set('Europe/London');
 
     // Get the events from the database
-    $events = get_events_for_year(2014);
+    $events = get_events_for_year(2015);
 
     // Build the timetable hierarchy based on the events
     $timetables = build_timetables_hierarchy($events);
 
-    // Generate the importable XML from the timetable hierarchy
-    $timetables = build_timetables_json($timetables, $courses);
+    // Generate the importable JSON from the timetable hierarchy
+    $timetables = build_timetables_json($timetables, $parts);
 
-    // Import each course
-    foreach ($courses as $courseId => $course) {
-        importCourse($course);
+    // Import each part
+    foreach ($parts as $partId => $part) {
+        importPart($part);
     }
 }
 
