@@ -205,7 +205,9 @@ function build_timetables_json($timetables, &$parts) {
                 $part->add_child($module);
 
                 foreach ($moduleVal as $seriesKey => $seriesVal) {
-                    $seriesId = "${timetableKey}-{$partKey}-${moduleKey}-${seriesKey}";
+                    // We use the ical_uid in the series unique id as this identifier should not
+                    // change when a series / event is edited
+                    $seriesId = "${timetableKey}-{$partKey}-${moduleKey}-" . $seriesVal[0]['ical_uid'];
                     $series = new Series($seriesId, $seriesKey, null);
                     $module->add_series($series);
 
