@@ -109,10 +109,13 @@ function get_event_from_row($row) {
     $type = map_event_type($row[10]);
     $event = new Event($externalId, $name, $description, null, $location, $start, $end, $type);
 
+    // Add the organisers if there are any. The CRSid is provided in the CSV data, so if we append
+    // @cam.ac.uk we get a fully qualified shibboleth ID. This allows the Timetable system to display
+    // the full name of the lecturer rather than just display the CRS id.
     if ($row[8] != "") {
         $organisers = explode(';', $row[8]);
         foreach ($organisers as $organiser) {
-            $event->add_organiser(new Organiser($organiser, $organiser . "@cam.ac.uk"));
+            $event->add_organiser(new Organiser(trim($organiser), trim($organiser) . "@cam.ac.uk"));
         }
     }
     return $event;
