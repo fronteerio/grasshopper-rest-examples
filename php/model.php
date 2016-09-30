@@ -28,8 +28,23 @@ class OrgUnit {
         array_push($this->children, $child);
     }
 
-    public function has_child($externalId) {
-        return isset($this->childrenByExternalId[$externalId]);
+    public function get_or_add_series($series) {
+        $existing_series = $this->get_series($series->externalId);
+        if ($existing_series == false) {
+            $this->add_series($series);
+            return $series;
+        } else {
+            return $existing_series;
+        }
+    }
+
+    public function get_series($seriesExternalId) {
+        foreach ($this->series as $serie) {
+            if ($serie->externalId == $seriesExternalId) {
+                return $serie;
+            }
+        }
+        return false;
     }
 
     public function add_series($series) {

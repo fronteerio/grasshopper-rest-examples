@@ -1,0 +1,152 @@
+cohort_id,event_description,event_id,event_start_date,day_name,event_start_time,event_end_date,event_end_time,crsid,location_description,event_type,timetable_module
+a,Course A,12503,19/10/2016,,12:00:00,19/10/2016,13:00:00,jae1001,Physiology,Lecture,Lectures
+a,Course A,12502,17/10/2016,,12:00:00,17/10/2016,13:00:00,jae1001,Physiology,Lecture,Lectures
+a,Course A,12501,14/10/2016,,12:00:00,14/10/2016,13:00:00,jae1001,Physiology,Lecture,Lectures
+a,Course A,12500,12/10/2016,,12:00:00,12/10/2016,13:00:00,jae1001,Physiology,Lecture,Lectures
+a,Course A,12499,10/10/2016,,12:00:00,10/10/2016,13:00:00,jae1001,Physiology,Lecture,Lectures
+a,Course A,12498,07/10/2016,,12:00:00,07/10/2016,13:00:00,jae1001,Physiology,Lecture,Lectures
+a,Course B,12511,07/11/2016,,12:00:00,07/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12510,04/11/2016,,12:00:00,04/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12509,02/11/2016,,12:00:00,02/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12508,31/10/2016,,12:00:00,31/10/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12507,28/10/2016,,12:00:00,28/10/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12506,26/10/2016,,12:00:00,26/10/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12505,24/10/2016,,12:00:00,24/10/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12515,16/11/2016,,12:00:00,16/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12504,21/10/2016,,12:00:00,21/10/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12514,14/11/2016,,12:00:00,14/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12513,11/11/2016,,12:00:00,11/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course B,12512,09/11/2016,,12:00:00,09/11/2016,13:00:00,zb10,Physiology,Lecture,Lectures
+a,Course C,12521,30/11/2016,,12:00:00,30/11/2016,13:00:00,nar20,Physiology,Lecture,Lectures
+a,Course C,12520,28/11/2016,,12:00:00,28/11/2016,13:00:00,nar20,Physiology,Lecture,Lectures
+a,Course C,12519,25/11/2016,,12:00:00,25/11/2016,13:00:00,nar20,Physiology,Lecture,Lectures
+a,Course C,12518,23/11/2016,,12:00:00,23/11/2016,13:00:00,nar20,Physiology,Lecture,Lectures
+a,Course C,12517,21/11/2016,,12:00:00,21/11/2016,13:00:00,nar20,Physiology,Lecture,Lectures
+a,Course C,12516,18/11/2016,,12:00:00,18/11/2016,13:00:00,nar20,Physiology,Lecture,Lectures
+a,Course D,12530,08/02/2017,,12:00:00,08/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12529,06/02/2017,,12:00:00,06/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12528,03/02/2017,,12:00:00,03/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12527,01/02/2017,,12:00:00,01/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12526,30/01/2017,,12:00:00,30/01/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12525,27/01/2017,,12:00:00,27/01/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12524,25/01/2017,,12:00:00,25/01/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12523,23/01/2017,,12:00:00,23/01/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12533,15/02/2017,,12:00:00,15/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12522,20/01/2017,,12:00:00,20/01/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12532,13/02/2017,,12:00:00,13/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course D,12531,10/02/2017,,12:00:00,10/02/2017,13:00:00,rao28,Physiology,Lecture,Lectures
+a,Course E,12544,13/03/2017,,12:00:00,13/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12543,10/03/2017,,12:00:00,10/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12542,08/03/2017,,12:00:00,08/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12541,06/03/2017,,12:00:00,06/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12540,03/03/2017,,12:00:00,03/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12539,01/03/2017,,12:00:00,01/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12538,27/02/2017,,12:00:00,27/02/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12537,24/02/2017,,12:00:00,24/02/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12536,22/02/2017,,12:00:00,22/02/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12535,20/02/2017,,12:00:00,20/02/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12545,15/03/2017,,12:00:00,15/03/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course E,12534,17/02/2017,,12:00:00,17/02/2017,13:00:00,ngj22,Physiology,Lecture,Lectures
+a,Course F,12548,03/05/2017,,12:00:00,03/05/2017,13:00:00,alg13,Physiology,Lecture,Lectures
+a,Course F,12547,01/05/2017,,12:00:00,01/05/2017,13:00:00,alg13,Physiology,Lecture,Lectures
+a,Course F,12546,28/04/2017,,12:00:00,28/04/2017,13:00:00,alg13,Physiology,Lecture,Lectures
+a,Course F,12551,10/05/2017,,12:00:00,10/05/2017,13:00:00,alg13,Physiology,Lecture,Lectures
+a,Course F,12550,08/05/2017,,12:00:00,08/05/2017,13:00:00,alg13,Physiology,Lecture,Lectures
+a,Course F,12549,05/05/2017,,12:00:00,05/05/2017,13:00:00,alg13,Physiology,Lecture,Lectures
+a,Course G,12552,12/05/2017,,12:00:00,12/05/2017,13:00:00,jhg27,Physiology,Lecture,Lectures
+a,Course G,12557,24/05/2017,,12:00:00,24/05/2017,13:00:00,jhg27,Physiology,Lecture,Lectures
+a,Course G,12556,22/05/2017,,12:00:00,22/05/2017,13:00:00,jhg27,Physiology,Lecture,Lectures
+a,Course G,12555,19/05/2017,,12:00:00,19/05/2017,13:00:00,jhg27,Physiology,Lecture,Lectures
+a,Course G,12554,17/05/2017,,12:00:00,17/05/2017,13:00:00,jhg27,Physiology,Lecture,Lectures
+a,Course G,12553,15/05/2017,,12:00:00,15/05/2017,13:00:00,jhg27,Physiology,Lecture,Lectures
+a,AP0,12563,07/10/2016,Friday,14:15:00,07/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP1,12569,14/10/2016,Friday,14:15:00,14/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP2,12575,21/10/2016,Friday,14:15:00,21/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP1,12581,28/10/2016,Friday,14:15:00,28/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP2,12593,11/11/2016,Friday,14:15:00,11/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP3,12599,18/11/2016,Friday,14:15:00,18/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP1,12605,25/11/2016,Friday,14:15:00,25/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP2,12611,20/01/2017,Friday,14:15:00,20/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP1,12617,27/01/2017,Friday,14:15:00,27/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP2,12623,03/02/2017,Friday,14:15:00,03/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP1,12647,03/03/2017,Friday,14:15:00,03/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP2,12653,10/03/2017,Friday,14:15:00,10/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP3,12659,28/04/2017,Friday,14:15:00,28/04/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP1,12665,05/05/2017,Friday,14:15:00,05/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP2,12671,12/05/2017,Friday,14:15:00,12/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,GP1,12677,19/05/2017,Friday,14:15:00,19/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP1,12629,10/02/2017,Friday,14:15:00,10/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP2,12635,17/02/2017,Friday,14:15:00,17/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP0,12564,10/10/2016,Monday,14:15:00,10/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP1,12570,17/10/2016,Monday,14:15:00,17/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP2,12576,24/10/2016,Monday,14:15:00,24/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP1,12582,31/10/2016,Monday,14:15:00,31/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP2,12594,14/11/2016,Monday,14:15:00,14/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP3,12600,21/11/2016,Monday,14:15:00,21/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP1,12606,28/11/2016,Monday,14:15:00,28/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP2,12612,23/01/2017,Monday,14:15:00,23/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP1,12618,30/01/2017,Monday,14:15:00,30/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP2,12624,06/02/2017,Monday,14:15:00,06/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP1,12648,06/03/2017,Monday,14:15:00,06/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP2,12654,13/03/2017,Monday,14:15:00,13/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP3,12660,01/05/2017,Monday,14:15:00,01/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP1,12666,08/05/2017,Monday,14:15:00,08/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP2,12672,15/05/2017,Monday,14:15:00,15/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,GP1,12678,22/05/2017,Monday,14:15:00,22/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP1,12630,13/02/2017,Monday,14:15:00,13/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP2,12636,20/02/2017,Monday,14:15:00,20/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP0,12562,06/10/2016,Thursday,14:15:00,06/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP1,12568,13/10/2016,Thursday,14:15:00,13/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP2,12574,20/10/2016,Thursday,14:15:00,20/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP1,12580,27/10/2016,Thursday,14:15:00,27/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP2,12592,10/11/2016,Thursday,14:15:00,10/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP3,12598,17/11/2016,Thursday,14:15:00,17/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP1,12604,24/11/2016,Thursday,14:15:00,24/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP2,12610,19/01/2017,Thursday,14:15:00,19/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP1,12616,26/01/2017,Thursday,14:15:00,26/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP2,12622,02/02/2017,Thursday,14:15:00,02/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP1,12646,02/03/2017,Thursday,14:15:00,02/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP2,12652,09/03/2017,Thursday,14:15:00,09/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP3,12658,27/04/2017,Thursday,14:15:00,27/04/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP1,12664,04/05/2017,Thursday,14:15:00,04/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP2,12670,11/05/2017,Thursday,14:15:00,11/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,GP1,12676,18/05/2017,Thursday,14:15:00,18/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP1,12628,09/02/2017,Thursday,14:15:00,09/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP2,12634,16/02/2017,Thursday,14:15:00,16/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP0,12565,11/10/2016,Tuesday,14:15:00,11/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP1,12571,18/10/2016,Tuesday,14:15:00,18/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP2,12577,25/10/2016,Tuesday,14:15:00,25/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP1,12583,01/11/2016,Tuesday,14:15:00,01/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP2,12595,15/11/2016,Tuesday,14:15:00,15/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP3,12601,22/11/2016,Tuesday,14:15:00,22/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP1,12607,29/11/2016,Tuesday,14:15:00,29/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP2,12613,24/01/2017,Tuesday,14:15:00,24/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP1,12619,31/01/2017,Tuesday,14:15:00,31/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP2,12625,07/02/2017,Tuesday,14:15:00,07/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP1,12649,07/03/2017,Tuesday,14:15:00,07/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP2,12655,14/03/2017,Tuesday,14:15:00,14/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP3,12661,02/05/2017,Tuesday,14:15:00,02/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP1,12667,09/05/2017,Tuesday,14:15:00,09/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP2,12673,16/05/2017,Tuesday,14:15:00,16/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,GP1,12679,23/05/2017,Tuesday,14:15:00,23/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP1,12631,14/02/2017,Tuesday,14:15:00,14/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP2,12637,21/02/2017,Tuesday,14:15:00,21/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP0,12566,12/10/2016,Wednesday,14:15:00,12/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP1,12572,19/10/2016,Wednesday,14:15:00,19/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,AP2,12578,26/10/2016,Wednesday,14:15:00,26/10/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP1,12584,02/11/2016,Wednesday,14:15:00,02/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP2,12596,16/11/2016,Wednesday,14:15:00,16/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,BP3,12602,23/11/2016,Wednesday,14:15:00,23/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP1,12608,30/11/2016,Wednesday,14:15:00,30/11/2016,17:00:00,,Part IA Lab,Practical,Practicals
+a,CP2,12614,25/01/2017,Wednesday,14:15:00,25/01/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP1,12620,01/02/2017,Wednesday,14:15:00,01/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,DP2,12626,08/02/2017,Wednesday,14:15:00,08/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP1,12650,08/03/2017,Wednesday,14:15:00,08/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP2,12656,15/03/2017,Wednesday,14:15:00,15/03/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,EP3,12662,03/05/2017,Wednesday,14:15:00,03/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP1,12668,10/05/2017,Wednesday,14:15:00,10/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,FP2,12674,17/05/2017,Wednesday,14:15:00,17/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,GP1,12680,24/05/2017,Wednesday,14:15:00,24/05/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP1,12632,15/02/2017,Wednesday,14:15:00,15/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,MP2,12638,22/02/2017,Wednesday,14:15:00,22/02/2017,17:00:00,,Part IA Lab,Practical,Practicals
+a,Exam Paper,13536,09/06/2017,,13:30:00,09/06/2017,16:30:00,,Other Location,Event,General

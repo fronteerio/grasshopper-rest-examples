@@ -1,0 +1,143 @@
+cohort_id,event_description,event_id,event_start_date,day_name,event_start_time,event_end_date,event_end_time,crsid,location_description,event_type,timetable_module
+b,Course A,12447,18/10/2016,,10:00:00,18/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12446,15/10/2016,,10:00:00,15/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12445,13/10/2016,,10:00:00,13/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12444,11/10/16,,10:00:00,11/10/16,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12443,8/10/16,,10:00:00,8/10/16,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12453,1/11/16,,10:00:00,1/11/16,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12442,6/10/16,,10:00:00,6/10/16,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12452,29/10/2016,,10:00:00,29/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12451,27/10/2016,,10:00:00,27/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12450,25/10/2016,,10:00:00,25/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12449,22/10/2016,,10:00:00,22/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course A,12448,20/10/2016,,10:00:00,20/10/2016,11:00:00,erw1,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12456,8/11/16,,10:00:00,8/11/16,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12461,19/11/2016,,10:00:00,19/11/2016,11:00:00,sk568,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12455,5/11/16,,10:00:00,5/11/16,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12454,3/11/16,,10:00:00,3/11/16,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12460,17/11/2016,,10:00:00,17/11/2016,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12465,29/11/2016,,10:00:00,29/11/2016,11:00:00,sk568,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12459,15/11/2016,,10:00:00,15/11/2016,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12464,26/11/2016,,10:00:00,26/11/2016,11:00:00,sk568,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12458,12/11/16,,10:00:00,12/11/16,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12463,24/11/2016,,10:00:00,24/11/2016,11:00:00,sk568,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12457,10/11/16,,10:00:00,10/11/16,11:00:00,ase25,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course B,12462,10/11/16,,10:00:00,22/11/2016,11:00:00,sk568,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12467,21/01/2017,,10:00:00,21/01/2017,11:00:00,nar20;jgh27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12474,7/2/17,,10:00:00,7/2/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12466,19/01/2017,,10:00:00,19/01/2017,11:00:00,nar20;jgh27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12473,4/2/17,,10:00:00,4/2/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12472,2/2/17,,10:00:00,2/2/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12471,31/01/2017,,10:00:00,31/01/2017,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12470,28/01/2017,,10:00:00,28/01/2017,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12469,26/01/2017,,10:00:00,26/01/2017,11:00:00,nar20;jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course C,12468,24/01/2017,,10:00:00,24/01/2017,11:00:00,nar20;jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course D,12480,21/02/2017,,10:00:00,21/02/2017,11:00:00,pam33,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course D,12479,18/02/2017,,10:00:00,18/02/2017,11:00:00,pam33,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course D,12478,16/02/2017,,10:00:00,16/02/2017,11:00:00,pam33,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course D,12477,14/02/2017,,10:00:00,14/02/2017,11:00:00,pam33,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course D,12476,11/2/17,,10:00:00,11/2/17,11:00:00,pam33,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course D,12475,9/2/17,,10:00:00,9/2/17,11:00:00,pam33,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12485,4/3/17,,10:00:00,4/3/17,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12484,2/3/17,,10:00:00,2/3/17,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12483,28/02/2017,,10:00:00,28/02/2017,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12482,25/02/2017,,10:00:00,25/02/2017,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12481,23/02/2017,,10:00:00,23/02/2017,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12489,14/03/2017,,10:00:00,14/03/2017,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12488,11/3/17,,10:00:00,11/3/17,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12487,9/3/17,,10:00:00,9/3/17,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course E,12486,7/3/17,,10:00:00,7/3/17,11:00:00,nar20,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12492,2/5/17,,10:00:00,2/5/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12491,27/04/2017,,10:00:00,27/04/2017,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12490,26/04/2017,,10:00:00,26/04/2017,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12497,11/5/17,,10:00:00,11/5/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12496,6/5/17,,10:00:00,6/5/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12495,9/5/17,,10:00:00,9/5/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12494,4/5/17,,10:00:00,4/5/17,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,Course F,12493,29/04/2017,,10:00:00,29/04/2017,11:00:00,jhg27,Wolfson LT (Chemistry),Lecture,Lectures
+b,C 1st Microscopy,12764,14/10/2016,Friday,9:00:00,14/10/2016,10:45:00,,Undergraduate SEM,Practical,Practicals
+b,C 2nd Microscopy,12772,28/10/2016,Friday,9:00:00,28/10/2016,10:45:00,,Undergraduate SEM,Practical,Practicals
+b,C 3rd Microscopy,12780,11/11/16,Friday,9:00:00,11/11/16,10:45:00,,Undergraduate SEM,Practical,Practicals
+b,G 1st Microscopy,12768,21/10/2016,Friday,9:00:00,21/10/2016,10:45:00,,Undergraduate SEM,Practical,Practicals
+b,G 2nd Microscopy,12776,4/11/16,Friday,9:00:00,4/11/16,10:45:00,,Undergraduate SEM,Practical,Practicals
+b,G 3rd Microscopy,12784,18/11/2016,Friday,9:00:00,18/11/2016,10:45:00,,Undergraduate SEM,Practical,Practicals
+b,D 1st Microscopy,12765,14/10/2016,Friday,11:15:00,14/10/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,D 2nd Microscopy,12773,28/10/2016,Friday,11:15:00,28/10/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,D 3rd Microscopy,12781,11/11/16,Friday,11:15:00,11/11/16,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,H 1st Microscopy,12769,21/10/2016,Friday,11:15:00,21/10/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,H 2nd Microscopy,12777,4/11/16,Friday,11:15:00,4/11/16,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,H 3rd Microscopy,12785,18/11/2016,Friday,11:15:00,18/11/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,P1,12682,10/10/16,Monday,9:00:00,10/10/16,11:30:00,,Part IB Lab,Practical,Practicals
+b,P10,12727,30/01/2017,Monday,9:00:00,30/01/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P11,12737,13/02/2017,Monday,9:00:00,13/02/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P12,12742,20/02/2017,Monday,9:00:00,20/02/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P13,12752,6/3/17,Monday,9:00:00,6/3/17,11:30:00,,Part IB Lab,Practical,Practicals
+b,P14,12757,13/03/2017,Monday,9:00:00,13/03/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P2,12687,17/10/2016,Monday,9:00:00,17/10/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P3,12692,24/10/2016,Monday,9:00:00,24/10/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P4,12697,31/10/2016,Monday,9:00:00,31/10/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P5,12702,7/11/16,Monday,9:00:00,7/11/16,11:30:00,,Part IB Lab,Practical,Practicals
+b,P6,12707,14/11/2016,Monday,9:00:00,14/11/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P7,12712,21/11/2016,Monday,9:00:00,21/11/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P8,12717,28/11/2016,Monday,9:00:00,28/11/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P9,12722,23/01/2017,Monday,9:00:00,23/01/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,A 1st Microscopy,12762,13/10/2016,Thursday,11:15:00,13/10/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,A 2nd Microscopy,12770,27/10/2016,Thursday,11:15:00,27/10/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,A 3rd Microscopy,12778,10/11/16,Thursday,11:15:00,10/11/16,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,E 1st Microscopy,12766,20/10/2016,Thursday,11:15:00,20/10/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,E 2nd Microscopy,12774,3/11/16,Thursday,11:15:00,3/11/16,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,E 3rd Microscopy,12782,17/11/2016,Thursday,11:15:00,17/11/2016,13:00:00,,Undergraduate SEM,Practical,Practicals
+b,B 1st Microscopy,12763,13/10/2016,Thursday,14:00:00,13/10/2016,15:45:00,,Undergraduate SEM,Practical,Practicals
+b,B 2nd Microscopy,12771,27/10/2016,Thursday,14:00:00,27/10/2016,15:45:00,,Undergraduate SEM,Practical,Practicals
+b,B 3rd Microscopy,12779,10/11/16,Thursday,14:00:00,10/11/16,15:45:00,,Undergraduate SEM,Practical,Practicals
+b,F 1st Microscopy,12767,20/10/2016,Thursday,14:00:00,20/10/2016,15:45:00,,Undergraduate SEM,Practical,Practicals
+b,F 2nd Microscopy,12775,3/11/16,Thursday,14:00:00,3/11/16,15:45:00,,Undergraduate SEM,Practical,Practicals
+b,F 3rd Microscopy,12783,17/11/2016,Thursday,14:00:00,17/11/2016,15:45:00,,Undergraduate SEM,Practical,Practicals
+b,P1,12683,11/10/16,Tuesday,14:00:00,11/10/16,16:30:00,,Part IB Lab,Practical,Practicals
+b,P10,12728,31/01/2017,Tuesday,14:00:00,31/01/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P11,12738,14/02/2017,Tuesday,14:00:00,14/02/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P12,12743,21/02/2017,Tuesday,14:00:00,21/02/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P13,12753,7/3/17,Tuesday,14:00:00,7/3/17,16:30:00,,Part IB Lab,Practical,Practicals
+b,P14,12758,14/03/2017,Tuesday,14:00:00,14/03/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P2,12688,18/10/2016,Tuesday,14:00:00,18/10/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P3,12693,25/10/2016,Tuesday,14:00:00,25/10/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P4,12698,1/11/16,Tuesday,14:00:00,1/11/16,16:30:00,,Part IB Lab,Practical,Practicals
+b,P5,12703,8/11/16,Tuesday,14:00:00,8/11/16,16:30:00,,Part IB Lab,Practical,Practicals
+b,P6,12708,15/11/2016,Tuesday,14:00:00,15/11/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P7,12713,22/11/2016,Tuesday,14:00:00,22/11/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P8,12718,29/11/2016,Tuesday,14:00:00,29/11/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P9,12723,24/01/2017,Tuesday,14:00:00,24/01/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P1,12684,12/10/16,Wednesday,9:00:00,12/10/16,11:30:00,,Part IB Lab,Practical,Practicals
+b,P10,12729,1/2/17,Wednesday,9:00:00,1/2/17,11:30:00,,Part IB Lab,Practical,Practicals
+b,P11,12739,15/02/2017,Wednesday,9:00:00,15/02/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P12,12744,22/02/2017,Wednesday,9:00:00,22/02/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P13,12754,8/3/17,Wednesday,9:00:00,8/3/17,11:30:00,,Part IB Lab,Practical,Practicals
+b,P14,12759,15/03/2017,Wednesday,9:00:00,15/03/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P2,12689,19/10/2016,Wednesday,9:00:00,19/10/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P3,12694,26/10/2016,Wednesday,9:00:00,26/10/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P4,12699,2/11/16,Wednesday,9:00:00,2/11/16,11:30:00,,Part IB Lab,Practical,Practicals
+b,P5,12704,9/11/16,Wednesday,9:00:00,9/11/16,11:30:00,,Part IB Lab,Practical,Practicals
+b,P6,12709,16/11/2016,Wednesday,9:00:00,16/11/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P7,12714,23/11/2016,Wednesday,9:00:00,23/11/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P8,12719,30/11/2016,Wednesday,9:00:00,30/11/2016,11:30:00,,Part IB Lab,Practical,Practicals
+b,P9,12724,25/01/2017,Wednesday,9:00:00,25/01/2017,11:30:00,,Part IB Lab,Practical,Practicals
+b,P1,12685,12/10/16,Wednesday,14:00:00,12/10/16,16:30:00,,Part IB Lab,Practical,Practicals
+b,P10,12730,1/2/17,Wednesday,14:00:00,1/2/17,16:30:00,,Part IB Lab,Practical,Practicals
+b,P11,12740,15/02/2017,Wednesday,14:00:00,15/02/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P12,12745,22/02/2017,Wednesday,14:00:00,22/02/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P13,12755,8/3/17,Wednesday,14:00:00,8/3/17,16:30:00,,Part IB Lab,Practical,Practicals
+b,P14,12760,15/03/2017,Wednesday,14:00:00,15/03/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,P2,12690,19/10/2016,Wednesday,14:00:00,19/10/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P3,12695,26/10/2016,Wednesday,14:00:00,26/10/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P4,12700,2/11/16,Wednesday,14:00:00,2/11/16,16:30:00,,Part IB Lab,Practical,Practicals
+b,P5,12705,9/11/16,Wednesday,14:00:00,9/11/16,16:30:00,,Part IB Lab,Practical,Practicals
+b,P6,12710,16/11/2016,Wednesday,14:00:00,16/11/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P7,12715,23/11/2016,Wednesday,14:00:00,23/11/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P8,12720,30/11/2016,Wednesday,14:00:00,30/11/2016,16:30:00,,Part IB Lab,Practical,Practicals
+b,P9,12725,25/01/2017,Wednesday,14:00:00,25/01/2017,16:30:00,,Part IB Lab,Practical,Practicals
+b,Exam Paper 1,13534,29/05/2017,,13:30:00,29/05/2017,16:30:00,,Other Location,Event,General
+b,Exam Paper 2,13535,5/6/17,,13:30:00,5/6/17,16:30:00,,Other Location,Event,General
+b,Industrial visit,12560,16/05/2017,,9:00:00,16/05/2017,17:00:00,,Other Location,Event,General
+b,Project vivas,13531,12/5/17,,14:00:00,12/5/17,17:00:00,,,Event,General
+b,Revision clinic,12559,23/05/2017,,14:00:00,23/05/2017,16:00:00,,Goldsmiths 1,Event,General
+b,Revision clinic,12558,18/05/2017,,14:00:00,18/05/2017,16:00:00,,Goldsmiths 1,Event,General

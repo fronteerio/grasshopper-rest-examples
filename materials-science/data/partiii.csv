@@ -1,0 +1,250 @@
+cohort_id,event_description,event_id,event_start_date,day_name,event_start_time,event_end_date,event_end_time,crsid,location_description,event_type,timetable_module
+d,M11,12201,24/10/2016,,09:00:00,24/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12200,21/10/2016,,09:00:00,21/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12199,17/10/2016,,09:00:00,17/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12198,13/10/2016,,09:00:00,13/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12197,11/10/2016,,09:00:00,11/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12195,07/10/2016,,09:00:00,07/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12205,20/10/2016,,09:00:00,20/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12194,06/10/2016,,09:00:00,06/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12312,10/10/2016,,10:00:00,10/10/2016,11:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12204,18/10/2016,,09:00:00,18/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12203,28/10/2016,,09:00:00,28/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M11,12202,26/10/2016,,09:00:00,26/10/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M13,12218,21/10/2016,,11:30:00,21/10/2016,12:30:00,sch29,Goldsmiths 2,Lecture,Lectures
+d,M13,12217,19/10/2016,,11:30:00,19/10/2016,12:30:00,sch29,Goldsmiths 2,Lecture,Lectures
+d,M13,12216,17/10/2016,,11:30:00,17/10/2016,12:30:00,sch29,Goldsmiths 2,Lecture,Lectures
+d,M13,12215,13/10/2016,,11:30:00,13/10/2016,12:30:00,sch29,Goldsmiths 2,Lecture,Lectures
+d,M13,12212,04/11/2016,,11:30:00,04/11/2016,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M13,12214,12/10/2016,,11:30:00,12/10/2016,12:30:00,sch29,Goldsmiths 2,Lecture,Lectures
+d,M13,12211,02/11/2016,,11:30:00,02/11/2016,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M13,12213,10/10/2016,,11:30:00,10/10/2016,12:30:00,sch29,Goldsmiths 2,Lecture,Lectures
+d,M13,12210,01/11/2016,,11:30:00,01/11/2016,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M13,12206,28/04/2017,,11:00:00,28/04/2017,13:00:00,sch29,Goldsmiths 2,Examples Class,Lectures
+d,M13,12209,28/10/2016,,11:30:00,28/10/2016,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M13,12208,26/10/2016,,11:30:00,26/10/2016,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M13,12207,25/10/2016,,11:30:00,25/10/2016,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M14,12219,17/02/2017,,10:00:00,17/02/2017,11:00:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12229,20/02/2017,,11:30:00,20/02/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12228,07/03/2017,,11:30:00,07/03/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12227,14/03/2017,,11:30:00,14/03/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12226,13/03/2017,,11:30:00,13/03/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12225,10/03/2017,,11:30:00,10/03/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12224,09/03/2017,,11:30:00,09/03/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12223,02/03/2017,,11:30:00,02/03/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12222,01/03/2017,,10:00:00,01/03/2017,11:00:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12221,23/02/2017,,11:30:00,23/02/2017,12:30:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12231,26/04/2017,,11:00:00,26/04/2017,13:00:00,xm212,Goldsmiths 2,Examples Class,Lectures
+d,M14,12220,22/02/2017,,10:00:00,22/02/2017,11:00:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M14,12230,28/02/2017,,09:00:00,28/02/2017,10:00:00,xm212,Goldsmiths 2,Lecture,Lectures
+d,M15,12235,18/11/2016,,09:00:00,18/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12234,17/11/2016,,09:00:00,17/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12244,27/04/2017,,09:00:00,27/04/2017,11:00:00,cjp20,Goldsmiths 2,Examples Class,Lectures
+d,M15,12233,15/11/2016,,09:00:00,15/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12243,08/11/2016,,10:00:00,08/11/2016,11:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12232,10/11/2016,,09:00:00,10/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12242,04/11/2016,,10:00:00,04/11/2016,11:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12241,03/11/2016,,10:00:00,03/11/2016,11:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12240,28/11/2016,,09:00:00,28/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12239,29/11/2016,,09:00:00,29/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12238,25/11/2016,,09:00:00,25/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12237,24/11/2016,,09:00:00,24/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M15,12236,22/11/2016,,09:00:00,22/11/2016,10:00:00,cjp20,Goldsmiths 2,Lecture,Lectures
+d,M17,12245,26/04/2017,,09:00:00,26/04/2017,11:00:00,kmk10;if203,Goldsmiths 2,Examples Class,Lectures
+d,M17,12246,09/03/2017,,09:00:00,09/03/2017,10:00:00,if203,Goldsmiths 2,Lecture,Lectures
+d,M17,12257,06/03/2017,,09:00:00,06/03/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12256,03/03/2017,,09:00:00,03/03/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12255,02/03/2017,,09:00:00,02/03/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12254,01/03/2017,,09:00:00,01/03/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12253,27/02/2017,,09:00:00,27/02/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12252,24/02/2017,,09:00:00,24/02/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12249,14/03/2017,,09:00:00,14/03/2017,10:00:00,if203,Goldsmiths 2,Lecture,Lectures
+d,M17,12251,23/02/2017,,09:00:00,23/02/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12250,22/02/2017,,09:00:00,22/02/2017,10:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M17,12248,13/03/2017,,09:00:00,13/03/2017,10:00:00,if203,Goldsmiths 2,Lecture,Lectures
+d,M17,12247,08/03/2017,,09:00:00,08/03/2017,10:00:00,if203,Goldsmiths 2,Lecture,Lectures
+d,M18,12268,24/02/2017,,11:30:00,24/02/2017,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M18,12264,06/03/2017,,11:30:00,06/03/2017,12:30:00,jjr33,Goldsmiths 2,Lecture,Lectures
+d,M18,12267,22/02/2017,,11:30:00,22/02/2017,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M18,12263,08/03/2017,,11:30:00,08/03/2017,12:30:00,jjr33,Goldsmiths 2,Lecture,Lectures
+d,M18,12266,16/02/2017,,11:30:00,16/02/2017,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M18,12262,03/03/2017,,11:30:00,03/03/2017,12:30:00,jjr33,Goldsmiths 2,Lecture,Lectures
+d,M18,12265,14/02/2017,,11:30:00,14/02/2017,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M18,12261,01/03/2017,,11:30:00,01/03/2017,12:30:00,jjr33,Goldsmiths 2,Lecture,Lectures
+d,M18,12260,28/02/2017,,11:30:00,28/02/2017,12:30:00,jjr33,Goldsmiths 2,Lecture,Lectures
+d,M18,12259,27/02/2017,,11:30:00,27/02/2017,12:30:00,jjr33,Goldsmiths 2,Lecture,Lectures
+d,M18,12258,03/05/2017,,09:00:00,03/05/2017,11:00:00,jjr33;mb52,Goldsmiths 2,Examples Class,Lectures
+d,M18,12270,21/02/2017,,11:30:00,21/02/2017,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M18,12269,09/02/2017,,11:30:00,09/02/2017,12:30:00,mb52,Goldsmiths 2,Lecture,Lectures
+d,M19,12271,19/01/2017,,10:00:00,19/01/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12281,15/02/2017,,10:00:00,15/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12280,14/02/2017,,10:00:00,14/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12279,10/02/2017,,10:00:00,10/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12278,08/02/2017,,10:00:00,08/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12277,07/02/2017,,10:00:00,07/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12276,03/02/2017,,10:00:00,03/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12275,01/02/2017,,10:00:00,01/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12274,31/01/2017,,10:00:00,31/01/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12273,27/01/2017,,10:00:00,27/01/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12283,02/05/2017,,11:00:00,02/05/2017,13:00:00,sk568,Goldsmiths 2,Examples Class,Lectures
+d,M19,12272,24/01/2017,,10:00:00,24/01/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M19,12282,16/02/2017,,10:00:00,16/02/2017,11:00:00,sk568,Goldsmiths 2,Lecture,Lectures
+d,M2,12292,07/02/2017,,09:00:00,07/02/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12291,06/02/2017,,09:00:00,06/02/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12290,02/02/2017,,09:00:00,02/02/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12289,31/01/2017,,09:00:00,31/01/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12288,30/01/2017,,09:00:00,30/01/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12287,26/01/2017,,09:00:00,26/01/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12286,24/01/2017,,09:00:00,24/01/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12296,02/05/2017,,09:00:00,02/05/2017,11:00:00,zb10,Goldsmiths 2,Examples Class,Lectures
+d,M2,12285,23/01/2017,,09:00:00,23/01/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12295,14/02/2017,,09:00:00,14/02/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12284,19/01/2017,,09:00:00,19/01/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12294,13/02/2017,,09:00:00,13/02/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M2,12293,09/02/2017,,09:00:00,09/02/2017,10:00:00,zb10,Goldsmiths 2,Lecture,Lectures
+d,M21,12300,14/11/2016,,10:00:00,14/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12299,11/11/2016,,10:00:00,11/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12309,29/11/2016,,11:00:00,29/11/2016,13:00:00,hkdb,Goldsmiths 2,Examples Class,Lectures
+d,M21,12298,10/11/2016,,10:00:00,10/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12308,09/11/2016,,10:00:00,09/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12297,07/11/2016,,10:00:00,07/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12307,25/11/2016,,10:00:00,25/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12306,23/11/2016,,10:00:00,23/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12305,22/11/2016,,10:00:00,22/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12304,21/11/2016,,10:00:00,21/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12303,18/11/2016,,10:00:00,18/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12302,16/11/2016,,10:00:00,16/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M21,12301,15/11/2016,,10:00:00,15/11/2016,11:00:00,hkdb,Goldsmiths 2,Lecture,Lectures
+d,M3,12319,21/10/2016,,10:00:00,21/10/2016,11:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12318,19/10/2016,,09:00:00,19/10/2016,10:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12317,25/10/2016,,09:00:00,25/10/2016,10:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12316,17/10/2016,,10:00:00,17/10/2016,11:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12315,13/10/2016,,10:00:00,13/10/2016,11:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12196,10/10/2016,,09:00:00,10/10/2016,10:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12314,12/10/2016,,09:00:00,12/10/2016,10:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12313,11/10/2016,,11:30:00,11/10/2016,12:30:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12322,27/04/2017,,11:00:00,27/04/2017,13:00:00,rvk10,Goldsmiths 2,Examples Class,Lectures
+d,M3,12311,07/10/2016,,11:30:00,07/10/2016,12:30:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12321,01/11/2016,,09:00:00,01/11/2016,10:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12310,06/10/2016,,11:30:00,06/10/2016,12:30:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M3,12320,31/10/2016,,09:00:00,31/10/2016,10:00:00,rvk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12335,03/05/2017,,11:00:00,03/05/2017,13:00:00,kmk10,Goldsmiths 2,Examples Class,Lectures
+d,M4,12324,07/10/2016,,10:00:00,07/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12334,02/11/2016,,10:00:00,02/11/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12323,06/10/2016,,10:00:00,06/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12333,01/11/2016,,10:00:00,01/11/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12332,31/10/2016,,10:00:00,31/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12331,27/10/2016,,10:00:00,27/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12330,25/10/2016,,10:00:00,25/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12329,19/10/2016,,10:00:00,19/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12328,20/10/2016,,10:00:00,20/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12327,18/10/2016,,10:00:00,18/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12326,12/10/2016,,10:00:00,12/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M4,12325,11/10/2016,,10:00:00,11/10/2016,11:00:00,kmk10,Goldsmiths 2,Lecture,Lectures
+d,M5,12338,06/02/2017,,10:00:00,06/02/2017,11:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12348,04/05/2017,,09:00:00,04/05/2017,11:00:00,wjc1000,Goldsmiths 2,Examples Class,Lectures
+d,M5,12337,02/02/2017,,10:00:00,02/02/2017,11:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12347,21/02/2017,,09:00:00,21/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12336,03/02/2017,,11:30:00,03/02/2017,12:30:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12346,20/02/2017,,09:00:00,20/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12345,17/02/2017,,09:00:00,17/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12344,16/02/2017,,09:00:00,16/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12343,15/02/2017,,09:00:00,15/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12342,13/02/2017,,10:00:00,13/02/2017,11:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12341,10/02/2017,,09:00:00,10/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12340,09/02/2017,,10:00:00,09/02/2017,11:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M5,12339,08/02/2017,,09:00:00,08/02/2017,10:00:00,wjc1000,Goldsmiths 2,Lecture,Lectures
+d,M6,12354,04/11/2016,,09:00:00,04/11/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M6,12360,24/11/2016,,11:30:00,24/11/2016,12:30:00,rec11,Goldsmiths 2,Lecture,Lectures
+d,M6,12353,03/11/2016,,09:00:00,03/11/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M6,12359,22/11/2016,,11:30:00,22/11/2016,12:30:00,rec11,Goldsmiths 2,Lecture,Lectures
+d,M6,12352,11/11/2016,,09:00:00,11/11/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M6,12358,15/11/2016,,11:30:00,15/11/2016,12:30:00,rec11,Goldsmiths 2,Lecture,Lectures
+d,M6,12351,09/11/2016,,09:00:00,09/11/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M6,12357,16/11/2016,,09:00:00,16/11/2016,10:00:00,rec11,Goldsmiths 2,Lecture,Lectures
+d,M6,12350,07/11/2016,,09:00:00,07/11/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M6,12356,14/11/2016,,09:00:00,14/11/2016,10:00:00,rec11,Goldsmiths 2,Lecture,Lectures
+d,M6,12349,28/04/2017,,09:00:00,28/04/2017,11:00:00,jhg27;rec11,Goldsmiths 2,Examples Class,Lectures
+d,M6,12355,08/11/2016,,09:00:00,08/11/2016,10:00:00,jhg27,Goldsmiths 2,Lecture,Lectures
+d,M6,12361,28/11/2016,,11:30:00,28/11/2016,12:30:00,rec11,Goldsmiths 2,Lecture,Lectures
+d,M7,12370,06/03/2017,,10:00:00,06/03/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12369,03/03/2017,,10:00:00,03/03/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12368,02/03/2017,,10:00:00,02/03/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12367,28/02/2017,,10:00:00,28/02/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12366,27/02/2017,,10:00:00,27/02/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12365,24/02/2017,,10:00:00,24/02/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12364,23/02/2017,,10:00:00,23/02/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12374,04/05/2017,,11:00:00,04/05/2017,13:00:00,ndm12,Goldsmiths 2,Examples Class,Lectures
+d,M7,12363,21/02/2017,,10:00:00,21/02/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12373,10/03/2017,,10:00:00,10/03/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12362,20/02/2017,,10:00:00,20/02/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12372,09/03/2017,,10:00:00,09/03/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M7,12371,07/03/2017,,10:00:00,07/03/2017,11:00:00,ndm12,Goldsmiths 2,Lecture,Lectures
+d,M8,12380,06/02/2017,,11:30:00,06/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12379,01/02/2017,,11:30:00,01/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12378,30/01/2017,,11:30:00,30/01/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12377,27/01/2017,,11:30:00,27/01/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12387,15/03/2017,,11:00:00,15/03/2017,13:00:00,ase25,Goldsmiths 2,Examples Class,Lectures
+d,M8,12376,26/01/2017,,11:30:00,26/01/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12386,07/02/2017,,11:30:00,07/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12375,23/01/2017,,11:30:00,23/01/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12385,17/02/2017,,11:30:00,17/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12384,15/02/2017,,11:30:00,15/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12383,13/02/2017,,11:30:00,13/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12382,10/02/2017,,11:30:00,10/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M8,12381,08/02/2017,,11:30:00,08/02/2017,12:30:00,ase25,Goldsmiths 2,Lecture,Lectures
+d,M9,12399,25/11/2016,,11:30:00,25/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12388,03/11/2016,,11:30:00,03/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12398,23/11/2016,,11:30:00,23/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12397,21/11/2016,,11:30:00,21/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12396,18/11/2016,,11:30:00,18/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12395,17/11/2016,,11:30:00,17/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12394,16/11/2016,,11:30:00,16/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12393,14/11/2016,,11:30:00,14/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12392,11/11/2016,,11:30:00,11/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12391,10/11/2016,,11:30:00,10/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12390,09/11/2016,,11:30:00,09/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,M9,12400,05/05/2017,,10:00:00,05/05/2017,12:00:00,cr18,Goldsmiths 2,Examples Class,Lectures
+d,M9,12389,07/11/2016,,11:30:00,07/11/2016,12:30:00,cr18,Goldsmiths 2,Lecture,Lectures
+d,S1,12407,23/01/2017,,10:00:00,23/01/2017,11:00:00,zzzz1,Goldsmiths 2,Lecture,Lectures
+d,S1,12412,01/02/2017,,09:00:00,01/02/2017,10:00:00,zzzz1,Goldsmiths 2,Lecture,Lectures
+d,S1,12411,30/01/2017,,10:00:00,30/01/2017,11:00:00,zzzz1,Goldsmiths 2,Lecture,Lectures
+d,S1,12410,27/01/2017,,09:00:00,27/01/2017,10:00:00,zzzz1,Goldsmiths 2,Lecture,Lectures
+d,S1,12409,26/01/2017,,10:00:00,26/01/2017,11:00:00,zzzz1,Goldsmiths 2,Lecture,Lectures
+d,S1,12408,25/01/2017,,09:00:00,25/01/2017,10:00:00,zzzz1,Goldsmiths 2,Lecture,Lectures
+d,S2,12424,25/01/2017,,10:00:00,25/01/2017,11:00:00,dvb24,Goldsmiths 2,Lecture,Lectures
+d,S2,12423,03/02/2017,,09:00:00,03/02/2017,10:00:00,dvb24,Goldsmiths 2,Lecture,Lectures
+d,S2,12422,02/02/2017,,11:30:00,02/02/2017,12:30:00,dvb24,Goldsmiths 2,Lecture,Lectures
+d,S2,12421,31/01/2017,,11:30:00,31/01/2017,12:30:00,dvb24,Goldsmiths 2,Lecture,Lectures
+d,S2,12420,24/01/2017,,11:30:00,24/01/2017,12:30:00,dvb24,Goldsmiths 2,Lecture,Lectures
+d,S2,12419,19/01/2017,,11:30:00,19/01/2017,12:30:00,dvb24,Goldsmiths 2,Lecture,Lectures
+d,S3,12413,15/03/2017,,10:00:00,15/03/2017,11:00:00,ad819,Goldsmiths 2,Lecture,Lectures
+d,S3,12418,08/03/2017,,10:00:00,08/03/2017,11:00:00,ad819,Goldsmiths 2,Lecture,Lectures
+d,S3,12417,10/03/2017,,09:00:00,10/03/2017,10:00:00,ad819,Goldsmiths 2,Lecture,Lectures
+d,S3,12416,07/03/2017,,09:00:00,07/03/2017,10:00:00,ad819,Goldsmiths 2,Lecture,Lectures
+d,S3,12415,13/03/2017,,10:00:00,13/03/2017,11:00:00,ad819,Goldsmiths 2,Lecture,Lectures
+d,S3,12414,14/03/2017,,10:00:00,14/03/2017,11:00:00,ad819,Goldsmiths 2,Lecture,Lectures
+d,S5,12430,31/10/2016,,11:30:00,31/10/2016,12:30:00,twc10,Goldsmiths 2,Lecture,Lectures
+d,S5,12429,27/10/2016,,09:00:00,27/10/2016,10:00:00,twc10,Goldsmiths 2,Lecture,Lectures
+d,S5,12428,28/10/2016,,10:00:00,28/10/2016,11:00:00,twc10,Goldsmiths 2,Lecture,Lectures
+d,S5,12427,26/10/2016,,10:00:00,26/10/2016,11:00:00,twc10,Goldsmiths 2,Lecture,Lectures
+d,S5,12426,24/10/2016,,10:00:00,24/10/2016,11:00:00,twc10,Goldsmiths 2,Lecture,Lectures
+d,S5,12425,20/10/2016,,11:30:00,20/10/2016,12:30:00,twc10,Goldsmiths 2,Lecture,Lectures
+d,S6,12436,29/11/2016,,10:00:00,29/11/2016,11:00:00,pejr2,Goldsmiths 2,Lecture,Lectures
+d,S6,12435,28/11/2016,,10:00:00,28/11/2016,11:00:00,pejr2,Goldsmiths 2,Lecture,Lectures
+d,S6,12434,24/11/2016,,10:00:00,24/11/2016,11:00:00,pejr2,Goldsmiths 2,Lecture,Lectures
+d,S6,12433,23/11/2016,,09:00:00,23/11/2016,10:00:00,pejr2,Goldsmiths 2,Lecture,Lectures
+d,S6,12432,21/11/2016,,09:00:00,21/11/2016,10:00:00,pejr2,Goldsmiths 2,Lecture,Lectures
+d,S6,12431,17/11/2016,,10:00:00,17/11/2016,11:00:00,pejr2,Goldsmiths 2,Lecture,Lectures
+d,Essay Class,12161,25/01/2017,,11:00:00,25/01/2017,12:30:00,,Goldsmiths 1,Event,General
+d,Exam Paper 1,12163,30/05/2017,,09:00:00,30/05/2017,12:00:00,,Goldsmiths 2,Event,General
+d,Exam Paper 2,12165,31/05/2017,,09:00:00,31/05/2017,12:00:00,,Goldsmiths 2,Event,General
+d,Exam Paper 3,12167,01/06/2017,,09:00:00,01/06/2017,12:00:00,,Goldsmiths 2,Event,General
+d,Introductory stuff,12172,05/10/2016,,09:00:00,05/10/2016,12:00:00,,Goldsmiths 2,Event,General
+d,Oral presentations,13574,23/11/2016,,13:30:00,23/11/2016,17:00:00,,Goldsmiths 2,Event,General
+d,Oral presentations,13575,24/11/2016,,13:30:00,24/11/2016,17:00:00,,Goldsmiths 2,Event,General
+d,Oral presentations,13576,25/11/2016,,13:30:00,25/11/2016,17:00:00,,Goldsmiths 2,Event,General
+d,Part III poster session,12403,05/05/2017,,12:00:00,05/05/2017,14:00:00,,Tea Room,Event,General
+d,Safety training,12439,05/10/2016,,12:30:00,05/10/2016,17:00:00,,Other Location,Event,General
+d,Safety training,12438,04/10/2016,,09:00:00,04/10/2016,13:00:00,,Other Location,Event,General
+d,Vivas with external examiners,12441,13/06/2017,,13:00:00,13/06/2017,17:00:00,,Other Location,Event,General
