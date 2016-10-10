@@ -20,7 +20,8 @@ function get_events_for_year($year) {
     }
     $startEnd = get_start_end_for_year($year);
     $statement = $db->prepare(
-        'SELECT mrbs_entry.*, "Unknown" as room_name FROM mrbs_entry
+        'SELECT mrbs_entry.*, mrbs_room.room_name FROM mrbs_entry
+         LEFT JOIN (mrbs_room) ON (mrbs_room.id = mrbs_entry.room_id)
          WHERE start_time >= ?
          AND end_time <= ?
          AND no_plasma is NULL
@@ -270,7 +271,7 @@ function importPart($part) {
     }
     curl_close($curl);
     // The part data has been imported and should now be in the timetable system
-    print "Imported data for " . $part->displayName . "\n\r";
+    print "Imported data for " . $part->externalId . "\n\r";
 }
 function init() {
     global $parts;
