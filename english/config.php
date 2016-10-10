@@ -11,17 +11,17 @@ $access_token = '5f7hp3X6WQaIteb4BcrR1xJge7SMufZ6U3ZbCrTccBdKT2KQ3OuuaK56u2MFu5l
 // parts in the Timetable system
 $parts = array(
     // Undergraduate parts
-    'prelim_primary'            => new Part(6806, 'english-tripos-prelim', 'Prelim', null, false, null),
-    'part1_primary'             => new Part(6816, 'english-tripos-partI', 'Part I', null, false, null),
-    'part2_primary'             => new Part(6788, 'english-tripos-partII', 'Part II', null, false, null),
+    'prelim_primary'            => new Part(14189, 'english-tripos-prelim', 'Prelim', null, false, null),
+    'part1_primary'             => new Part(14162, 'english-tripos-partI', 'Part I', null, false, null),
+    'part2_primary'             => new Part(14172, 'english-tripos-partII', 'Part II', null, false, null),
 
     // Graduate parts
-    'american-mphil'            => new Part(7825, 'american-mphil', 'MPhil', null, false, null),
-    'c-and-c-mphil'             => new Part(6520, 'c-and-c-mphil', 'MPhil', null, false, null),
-    'eighteenth-mphil'          => new Part(6518, 'eighteenth-mphil', 'MPhil', null, false, null),
-    'modern-mphil'              => new Part(6351, 'modern-mphil', 'MPhil', null, false, null),
-    'med-ren-mphil'             => new Part(6516, 'med-ren-mphil', 'MPhil', null, false, null),
-    'research-seminar'          => new Part(6245, 'research-seminar', 'Research Seminar', null, false, null),
-    'phd'                       => new Part(6223, 'phd', 'PhD', null, false, null),
+    'american-mphil'            => new Part(14878, 'american-mphil', 'MPhil', null, false, null),
+    'c-and-c-mphil'             => new Part(13915, 'c-and-c-mphil', 'MPhil', null, false, null),
+    'eighteenth-mphil'          => new Part(13913, 'eighteenth-mphil', 'MPhil', null, false, null),
+    'modern-mphil'              => new Part(13762, 'modern-mphil', 'MPhil', null, false, null),
+    'med-ren-mphil'             => new Part(14966, 'med-ren-mphil', 'MPhil', null, false, null),
+    'research-seminar'          => new Part(13620, 'research-seminar', 'Research Seminar', null, false, null),
+    'phd'                       => new Part(13618, 'phd', 'PhD', null, false, null),
 );
 ?>

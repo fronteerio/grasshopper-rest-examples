@@ -20,11 +20,11 @@ function get_events_for_year($year) {
     }
     $startEnd = get_start_end_for_year($year);
     $statement = $db->prepare(
-        'SELECT mrbs_entry.*, mrbs_room.room_name FROM mrbs_entry
-         LEFT JOIN (mrbs_room) ON (mrbs_room.id = mrbs_entry.room_id)
+        'SELECT mrbs_entry.*, "Unknown" as room_name FROM mrbs_entry
          WHERE start_time >= ?
          AND end_time <= ?
          AND no_plasma is NULL
+         AND faculty_teaching is not NULL
          ORDER BY start_time ASC'
     );
     if ($statement == false) {
@@ -181,20 +181,20 @@ function build_timetables_json($timetables, &$parts) {
                 $module = new Module($moduleId, $moduleKey, null, null, null);
                 $part->add_child($module);
                 foreach ($moduleVal as $seriesKey => $seriesVal) {
-            // original code for seriesID which uses the id field from mrbs_entry
+		    // original code for seriesID which uses the id field from mrbs_entry
                     //$seriesId = "${timetableKey}-{$partKey}-${moduleKey}-${seriesKey}";
-            // code from Simon which uses the ical_uid instead. this id doesn't change on edit, which id does. -jlp
-            $seriesId = "${timetableKey}-{$partKey}-${moduleKey}-${seriesKey}";
+		    // code from Simon which uses the ical_uid instead. this id doesn't change on edit, which id does. -jlp
+		    $seriesId = "${timetableKey}-{$partKey}-${moduleKey}-${seriesKey}";
                     $series = new Series($seriesId, $seriesVal[0]['name'], null);
                     $module->add_series($series);
-            $i=0;
+		    $i=0;
                     foreach ($seriesVal as $eventVal) {
-            // again this uses 'id' and that changes on edit. I wrote a replacement which uses series_id + ical_uid + an
-            // incremented number to make a unique, REPEATABLE, number for each individual event. This means the API can
-            // UPDATE existing extries instead of creating new ones. Not sure of the implications if the no of items changes, though... -JLP
+			// again this uses 'id' and that changes on edit. I wrote a replacement which uses series_id + ical_uid + an
+			// incremented number to make a unique, REPEATABLE, number for each individual event. This means the API can
+			// UPDATE existing extries instead of creating new ones. Not sure of the implications if the no of items changes, though... -JLP
                         //$eventExternalId = "${seriesId}-" . $eventVal['id'];
-            $eventExternalId = $i . "-" . str_replace(' ', '_', $seriesId);
-            //echo $eventExternalId . "\r\n";
+			$eventExternalId = $i . "-" . str_replace(' ', '_', $seriesId);
+			//echo $eventExternalId . "\r\n";
                         $location = get_event_location($eventVal);
                         $start = date(DATE_ISO8601, $eventVal['start_time']);
                         $end = date(DATE_ISO8601, $eventVal['end_time']);
@@ -202,7 +202,7 @@ function build_timetables_json($timetables, &$parts) {
                         $event = new Event($eventExternalId, $eventVal['name'], $eventVal['description'], null, $location, $start, $end, $type);
                         $event->add_organiser(new Organiser($eventVal['requestor'], null));
                         $series->add_event($event);
-            $i++;
+			$i++;
                     }
                 }
             }
@@ -276,7 +276,7 @@ function init() {
     global $parts;
     date_default_timezone_set('Europe/London');
     // Get the events from the database
-    $events = get_events_for_year(2015);
+    $events = get_events_for_year(2016);
     // Build the timetable hierarchy based on the events
     $timetables = build_timetables_hierarchy($events);
     // Generate the importable JSON from the timetable hierarchy
