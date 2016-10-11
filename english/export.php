@@ -236,15 +236,43 @@ function importPart($part) {
     // Get the URL of the API and the access token from the config
     global $api_url;
     global $access_token;
+
+    print "Importing data for " . $part->externalId . "\n\r";
+
     // We should post the data to /api/orgunit/<id>/import
     $partId = $part->id;
     $url = "${api_url}/orgunit/${partId}/import";
     // We need to provide the part data formatted as JSON
     $importData = json_encode($part);
-
-    print "Importing data for " . $part->externalId . "\n\r";
-    print "Raw data:\r\n";
-    print_r($part);
+    switch (json_last_error()) {
+        case JSON_ERROR_NONE:
+            echo ' - No errors';
+        break;
+        case JSON_ERROR_DEPTH:
+            echo ' - Maximum stack depth exceeded';
+        break;
+        case JSON_ERROR_STATE_MISMATCH:
+            echo ' - Underflow or the modes mismatch';
+        break;
+        case JSON_ERROR_CTRL_CHAR:
+            echo ' - Unexpected control character found';
+        break;
+        case JSON_ERROR_SYNTAX:
+            echo ' - Syntax error, malformed JSON';
+        break;
+        case JSON_ERROR_UTF8:
+            echo ' - Malformed UTF-8 characters, possibly incorrectly encoded';
+        break;
+        case JSON_ERROR_RECURSION:
+            echo ' - One or more recursive references in the value to be encoded ';
+        case JSON_ERROR_INF_OR_NAN:
+            echo ' - One or more NAN or INF values in the value to be encoded';
+        case JSON_ERROR_UNSUPPORTED_TYPE:
+            echo ' - A value of a type that cannot be encoded was given';
+        default:
+            echo ' - Unknown error';
+        break;
+    }
     print "\r\nJSON Encoded data:\r\n";
     print($importData);
     print("\r\nExecuting API request now:\r\n");
