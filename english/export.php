@@ -19,6 +19,7 @@ function get_start_end_for_year($year) {
 // Get the events from the mrbs database
 function get_events_for_year($year) {
     $db = mysqli_connect('localhost', 'root', '', 'english');
+    mysqli_set_charset($db, "utf8");
     if ($db->connect_errno > 0) {
         die('Unable to connect to database [' . $db->connect_error . ']');
     }
@@ -247,7 +248,7 @@ function importPart($part) {
     $partId = $part->id;
     $url = "${api_url}/orgunit/${partId}/import";
     // We need to provide the part data formatted as JSON
-    $importData = json_encode($part);
+    $importData = json_encode($part, JSON_UNESCAPED_UNICODE);
     switch (json_last_error()) {
         case JSON_ERROR_NONE:
             echo ' - No errors';
