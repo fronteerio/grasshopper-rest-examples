@@ -240,7 +240,15 @@ function importPart($part) {
     $partId = $part->id;
     $url = "${api_url}/orgunit/${partId}/import";
     // We need to provide the part data formatted as JSON
-    $importData = json_encode($part, JSON_PRETTY_PRINT);
+    $importData = json_encode($part);
+
+    print "Importing data for " . $part->externalId . "\n\r";
+    print "Raw data:\r\n";
+    print_r($part);
+    print "\r\nJSON Encoded data:\r\n";
+    print($importData);
+    print("\r\nExecuting API request now:\r\n");
+
     // We will use cURL to talk to the timetable REST API
     $curl = curl_init($url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
